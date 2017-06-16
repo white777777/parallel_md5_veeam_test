@@ -254,11 +254,11 @@ void parseArgs(char** args, int nArgs, std::string & inFile, std::string & outFi
   }
 }
 
-int main(char** args, int nArgs)
+int main(int nArgs, char** args)
 {
   using namespace file_hash;
   //Test().TestFile();
-  return 0;
+  //return 0;
   try
   {
     std::string inFile, outFile;
